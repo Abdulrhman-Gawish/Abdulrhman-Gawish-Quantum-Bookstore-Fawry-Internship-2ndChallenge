@@ -1,0 +1,49 @@
+Quantum book store: Welcome to Quantum Bookstore System!
+Quantum book store: ==========================================
+Quantum book store: Starting comprehensive tests...
+
+Quantum book store: Testing adding books...
+Quantum book store: Added book 'Java Fundamentals'
+Quantum book store: Added book 'Clean Code'
+Quantum book store: Added book 'AI Research'
+Quantum book store: Testing adding books completed
+Quantum book store: Current Inventory:
+=====================================
+- Quantum book store: ISBN: SB300, Title: AI Research, Author: Z, Year: 2021, Price: $0.00 ShowCase - Not for sale 
+- Quantum book store: ISBN: PB100, Title: Java Fundamentals, Author: X, Year: 2020, Price: $2000.00, Stock: 10
+- Quantum book store: ISBN: EB200, Title: Clean Code, Author: Y, Year: 2019, Price: $2000.00, File Type: pdf
+=====================================
+
+Quantum book store: Testing buying books...
+Quantum book store: Shipping Java Fundamentals to address: Cairo, Egypt
+Quantum book store: Successfully purchased 2 copies of Java Fundamentals for $4000.00
+Quantum book store: Payment received: $4000.00
+Quantum book store: Sending Clean Code to email: gawishh@gmail.com
+Quantum book store: Successfully purchased 1 copies of Clean Code for $2000.00
+Quantum book store: Payment received: $2000.00
+Quantum book store: Expected error caught: Quantum book store: Book with ISBN SB3000 not found
+Quantum book store: Purchase failed - Quantum book store: Cannot purchase 22 copies of Java Fundamentals
+Quantum book store: Expected error caught: Quantum book store: Cannot purchase 22 copies of Java Fundamentals
+Quantum book store: Testing buying books completed
+Quantum book store: Current Inventory:
+=====================================
+- Quantum book store: ISBN: SB300, Title: AI Research, Author: Z, Year: 2021, Price: $0.00 ShowCase - Not for sale 
+- Quantum book store: ISBN: PB100, Title: Java Fundamentals, Author: X, Year: 2020, Price: $2000.00, Stock: 8
+- Quantum book store: ISBN: EB200, Title: Clean Code, Author: Y, Year: 2019, Price: $2000.00, File Type: pdf
+=====================================
+
+Quantum book store: Testing removing books...
+Quantum book store: Not Removed because not found any outdated book 
+Quantum book store: Testing removing books completed
+Quantum book store: Current Inventory:
+=====================================
+- Quantum book store: ISBN: SB300, Title: AI Research, Author: Z, Year: 2021, Price: $0.00 ShowCase - Not for sale 
+- Quantum book store: ISBN: PB100, Title: Java Fundamentals, Author: X, Year: 2020, Price: $2000.00, Stock: 8
+- Quantum book store: ISBN: EB200, Title: Clean Code, Author: Y, Year: 2019, Price: $2000.00, File Type: pdf
+=====================================
+
+Quantum book store: Testing edge cases...
+Quantum book store: Expected error caught: Quantum book store: Book with ISBN 12345 not found
+Quantum book store: Purchase failed - Quantum book store: Cannot purchase 0 copies of Java Fundamentals
+Quantum book store: Expected error caught: Quantum book store: Cannot purchase 0 copies of Java Fundamentals
+Quantum book store: Edge case testing completed

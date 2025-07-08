@@ -76,7 +76,7 @@ public class QuantumBookstoreFullTest {
     private void testRemovingOutdatedBooks() {
         System.out.println("Quantum book store: Testing removing books...");
 
-        store.removeOutdatedBook(10); // removes books older than 10 years
+        store.removeOutdatedBook(10);
         System.out.println("Quantum book store: Testing removing books completed");
         store.displayInventory();
     }

@@ -24,9 +24,9 @@ public class QuantumBookstoreFullTest {
         System.out.println("Quantum book store: Testing adding books...");
 
         // Create different types of books
-        PaperBook paperBook = new PaperBook("PB100", "Java Fundamentals", "X", 2020, 2000, 10);
-        EBook eBook = new EBook("EB200", "Clean Code", "Y", 2019, 2000, "pdf");
-        ShowcaseBook demoBook = new ShowcaseBook("SB300", "AI Research", "Z", 2021);
+        PaperBook paperBook = new PaperBook("PB100", "Java Fundamentals", "Agawish", 2020, 2000, 10);
+        EBook eBook = new EBook("EB200", "Clean Code", "Agawish", 2019, 2000, "pdf");
+        ShowcaseBook demoBook = new ShowcaseBook("SB300", "AI Research", "Agawish", 2021);
 
         store.addBook(paperBook);
         store.addBook(eBook);
@@ -87,7 +87,7 @@ public class QuantumBookstoreFullTest {
 
         // Test buying non-existent book with isbn 12345 => not found because search based on isbn
         try {
-            store.buyBook("12345", 1, "gawishh@gmail.com", "Test Address");
+            store.buyBook("12345", 1, "gawishh@gmail.com", "Nasr City, Cairo");
         } catch (IllegalArgumentException e) {
             System.out.println("Quantum book store: Expected error caught: " + e.getMessage());
         }

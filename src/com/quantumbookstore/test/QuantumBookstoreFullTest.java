@@ -23,7 +23,7 @@ public class QuantumBookstoreFullTest {
     private void testAddingBooks() {
         System.out.println("Quantum book store: Testing adding books...");
 
-        // Create different types of books using factory
+        // Create different types of books
         PaperBook paperBook = new PaperBook("PB100", "Java Fundamentals", "X", 2020, 2000, 10);
         EBook eBook = new EBook("EB200", "Clean Code", "Y", 2019, 2000, "pdf");
         ShowcaseBook demoBook = new ShowcaseBook("SB300", "AI Research", "Z", 2021);
@@ -46,7 +46,7 @@ public class QuantumBookstoreFullTest {
             double amount1 = store.buyBook("PB100", 2, "gawishh@gmail.com", "Cairo, Egypt");
             System.out.println("Quantum book store: Payment received: $" + String.format("%.2f", amount1));
 
-            // Buy ebook
+            // Buy eBook
             double amount2 = store.buyBook("EB200", 1, "gawishh@gmail.com", "Cairo");
             System.out.println("Quantum book store: Payment received: $" + String.format("%.2f", amount2));
 

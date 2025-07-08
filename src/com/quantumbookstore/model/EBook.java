@@ -19,7 +19,7 @@ public class EBook extends Book {
 
     @Override
     protected void updateInventory(int quantity) {
-        // updateInventory method not needed for digital Books
+        // updateInventory method not needed for digital books
     }
 
     @Override
